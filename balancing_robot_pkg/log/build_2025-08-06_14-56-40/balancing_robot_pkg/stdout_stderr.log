@@ -1,0 +1,44 @@
+running egg_info
+creating build/balancing_robot_pkg/balancing_robot_pkg.egg-info
+writing build/balancing_robot_pkg/balancing_robot_pkg.egg-info/PKG-INFO
+writing dependency_links to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/dependency_links.txt
+writing entry points to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/entry_points.txt
+writing requirements to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/requires.txt
+writing top-level names to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/top_level.txt
+writing manifest file 'build/balancing_robot_pkg/balancing_robot_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/balancing_robot_pkg/balancing_robot_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/balancing_robot_pkg/balancing_robot_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build
+creating /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib
+creating /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+copying balancing_robot_pkg/__init__.py -> /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+copying balancing_robot_pkg/imu_serial.py -> /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+copying balancing_robot_pkg/pid_sim.py -> /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+running install
+running install_lib
+creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+copying /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg/__init__.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+copying /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg/imu_serial.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+copying /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg/pid_sim.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+byte-compiling /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg/imu_serial.py to imu_serial.cpython-310.pyc
+byte-compiling /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg/pid_sim.py to pid_sim.cpython-310.pyc
+running install_data
+creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index
+creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index/resource_index
+creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index/resource_index/packages
+copying resource/balancing_robot_pkg -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg
+creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/launch
+copying launch/gazebo.launch.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/launch
+copying launch/display.launch.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/launch
+creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/urdf
+copying urdf/robot.urdf -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/urdf
+running install_egg_info
+Copying build/balancing_robot_pkg/balancing_robot_pkg.egg-info to /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_serial script to /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/balancing_robot_pkg
+Installing pid_sim script to /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/balancing_robot_pkg
+writing list of installed files to '/home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/install.log'

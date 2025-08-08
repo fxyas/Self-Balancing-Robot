@@ -1,0 +1,46 @@
+[0.642s] Invoking command in '/home/fayas/main_project/balancing_robot_pkg': PYTHONPATH=/home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/balancing_robot_pkg build --build-base /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build install --record /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/install.log --single-version-externally-managed install_data
+[0.814s] running egg_info
+[0.815s] creating build/balancing_robot_pkg/balancing_robot_pkg.egg-info
+[0.815s] writing build/balancing_robot_pkg/balancing_robot_pkg.egg-info/PKG-INFO
+[0.815s] writing dependency_links to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/dependency_links.txt
+[0.815s] writing entry points to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/entry_points.txt
+[0.815s] writing requirements to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/requires.txt
+[0.815s] writing top-level names to build/balancing_robot_pkg/balancing_robot_pkg.egg-info/top_level.txt
+[0.815s] writing manifest file 'build/balancing_robot_pkg/balancing_robot_pkg.egg-info/SOURCES.txt'
+[0.818s] reading manifest file 'build/balancing_robot_pkg/balancing_robot_pkg.egg-info/SOURCES.txt'
+[0.819s] writing manifest file 'build/balancing_robot_pkg/balancing_robot_pkg.egg-info/SOURCES.txt'
+[0.819s] running build
+[0.819s] running build_py
+[0.819s] creating /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build
+[0.819s] creating /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib
+[0.819s] creating /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+[0.819s] copying balancing_robot_pkg/__init__.py -> /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+[0.819s] copying balancing_robot_pkg/imu_serial.py -> /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+[0.819s] copying balancing_robot_pkg/pid_sim.py -> /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg
+[0.819s] running install
+[0.819s] running install_lib
+[0.820s] creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+[0.820s] copying /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg/__init__.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+[0.820s] copying /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg/imu_serial.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+[0.820s] copying /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build/lib/balancing_robot_pkg/pid_sim.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg
+[0.820s] byte-compiling /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg/__init__.py to __init__.cpython-310.pyc
+[0.820s] byte-compiling /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg/imu_serial.py to imu_serial.cpython-310.pyc
+[0.821s] byte-compiling /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg/pid_sim.py to pid_sim.cpython-310.pyc
+[0.821s] running install_data
+[0.821s] creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index
+[0.822s] creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index/resource_index
+[0.822s] creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index/resource_index/packages
+[0.822s] copying resource/balancing_robot_pkg -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/ament_index/resource_index/packages
+[0.822s] copying package.xml -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg
+[0.822s] creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/launch
+[0.822s] copying launch/gazebo.launch.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/launch
+[0.822s] copying launch/display.launch.py -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/launch
+[0.822s] creating /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/urdf
+[0.822s] copying urdf/robot.urdf -> /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/share/balancing_robot_pkg/urdf
+[0.822s] running install_egg_info
+[0.823s] Copying build/balancing_robot_pkg/balancing_robot_pkg.egg-info to /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages/balancing_robot_pkg-0.0.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.844s] Installing imu_serial script to /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/balancing_robot_pkg
+[0.844s] Installing pid_sim script to /home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/balancing_robot_pkg
+[0.844s] writing list of installed files to '/home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/install.log'
+[0.866s] Invoked command in '/home/fayas/main_project/balancing_robot_pkg' returned '0': PYTHONPATH=/home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fayas/main_project/balancing_robot_pkg/install/balancing_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/balancing_robot_pkg build --build-base /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/build install --record /home/fayas/main_project/balancing_robot_pkg/build/balancing_robot_pkg/install.log --single-version-externally-managed install_data

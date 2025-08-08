@@ -1,0 +1,4 @@
+[console_scripts]
+imu_serial = balancing_robot_pkg.imu_serial:main
+pid_sim = balancing_robot_pkg.pid_sim:main
+
